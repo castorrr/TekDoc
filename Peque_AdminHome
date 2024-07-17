@@ -1,0 +1,201 @@
+namespace WinFormsApp1
+{
+    partial class AdminHome
+    {
+        /// <summary>
+        ///  Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        ///  Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        ///  Required method for Designer support - do not modify
+        ///  the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            panel1 = new Panel();
+            panel2 = new Panel();
+            button1 = new Button();
+            panel3 = new Panel();
+            panel4 = new Panel();
+            panel5 = new Panel();
+            panel6 = new Panel();
+            button2 = new Button();
+            button3 = new Button();
+            button4 = new Button();
+            panel7 = new Panel();
+            button5 = new Button();
+            panel1.SuspendLayout();
+            panel3.SuspendLayout();
+            panel4.SuspendLayout();
+            panel5.SuspendLayout();
+            panel6.SuspendLayout();
+            panel7.SuspendLayout();
+            SuspendLayout();
+            // 
+            // panel1
+            // 
+            panel1.Controls.Add(panel7);
+            panel1.Controls.Add(panel6);
+            panel1.Controls.Add(panel5);
+            panel1.Controls.Add(panel4);
+            panel1.Controls.Add(panel3);
+            panel1.Dock = DockStyle.Left;
+            panel1.Location = new Point(0, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(257, 796);
+            panel1.TabIndex = 0;
+            // 
+            // panel2
+            // 
+            panel2.Dock = DockStyle.Fill;
+            panel2.Location = new Point(257, 0);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(1299, 796);
+            panel2.TabIndex = 1;
+            // 
+            // button1
+            // 
+            button1.Dock = DockStyle.Fill;
+            button1.Location = new Point(0, 0);
+            button1.Name = "button1";
+            button1.Size = new Size(257, 100);
+            button1.TabIndex = 0;
+            button1.Text = "Dashboard";
+            button1.UseVisualStyleBackColor = true;
+            // 
+            // panel3
+            // 
+            panel3.Controls.Add(button1);
+            panel3.Dock = DockStyle.Top;
+            panel3.Location = new Point(0, 0);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(257, 100);
+            panel3.TabIndex = 1;
+            // 
+            // panel4
+            // 
+            panel4.Controls.Add(button2);
+            panel4.Dock = DockStyle.Top;
+            panel4.Location = new Point(0, 100);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(257, 91);
+            panel4.TabIndex = 0;
+            // 
+            // panel5
+            // 
+            panel5.Controls.Add(button3);
+            panel5.Dock = DockStyle.Top;
+            panel5.Location = new Point(0, 191);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(257, 91);
+            panel5.TabIndex = 0;
+            // 
+            // panel6
+            // 
+            panel6.Controls.Add(button4);
+            panel6.Dock = DockStyle.Top;
+            panel6.Location = new Point(0, 282);
+            panel6.Name = "panel6";
+            panel6.Size = new Size(257, 100);
+            panel6.TabIndex = 0;
+            // 
+            // button2
+            // 
+            button2.Dock = DockStyle.Fill;
+            button2.Location = new Point(0, 0);
+            button2.Name = "button2";
+            button2.Size = new Size(257, 91);
+            button2.TabIndex = 0;
+            button2.Text = "Verfication";
+            button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            button3.Dock = DockStyle.Fill;
+            button3.Location = new Point(0, 0);
+            button3.Name = "button3";
+            button3.Size = new Size(257, 91);
+            button3.TabIndex = 1;
+            button3.Text = "Database";
+            button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            button4.Dock = DockStyle.Fill;
+            button4.Location = new Point(0, 0);
+            button4.Name = "button4";
+            button4.Size = new Size(257, 100);
+            button4.TabIndex = 1;
+            button4.Text = "button4";
+            button4.UseVisualStyleBackColor = true;
+            // 
+            // panel7
+            // 
+            panel7.Controls.Add(button5);
+            panel7.Dock = DockStyle.Bottom;
+            panel7.Location = new Point(0, 696);
+            panel7.Name = "panel7";
+            panel7.Size = new Size(257, 100);
+            panel7.TabIndex = 0;
+            // 
+            // button5
+            // 
+            button5.Dock = DockStyle.Fill;
+            button5.Location = new Point(0, 0);
+            button5.Name = "button5";
+            button5.Size = new Size(257, 100);
+            button5.TabIndex = 0;
+            button5.Text = "button5";
+            button5.UseVisualStyleBackColor = true;
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(1556, 796);
+            Controls.Add(panel2);
+            Controls.Add(panel1);
+            Name = "Form1";
+            Text = "Form1";
+            WindowState = FormWindowState.Maximized;
+            panel1.ResumeLayout(false);
+            panel3.ResumeLayout(false);
+            panel4.ResumeLayout(false);
+            panel5.ResumeLayout(false);
+            panel6.ResumeLayout(false);
+            panel7.ResumeLayout(false);
+            ResumeLayout(false);
+        }
+
+        #endregion
+
+        private Panel panel1;
+        private Panel panel2;
+        private Panel panel6;
+        private Panel panel5;
+        private Panel panel4;
+        private Panel panel3;
+        private Button button1;
+        private Panel panel7;
+        private Button button5;
+        private Button button4;
+        private Button button3;
+        private Button button2;
+    }
+}
