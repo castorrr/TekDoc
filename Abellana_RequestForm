@@ -47,6 +47,7 @@ namespace TekDoc
             dateTimePicker1 = new DateTimePicker();
             label9 = new Label();
             richTextBox1 = new RichTextBox();
+            button1 = new Button();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             panel5.SuspendLayout();
@@ -241,11 +242,21 @@ namespace TekDoc
             richTextBox1.TabIndex = 10;
             richTextBox1.Text = "";
             // 
+            // button1
+            // 
+            button1.Location = new Point(758, 556);
+            button1.Name = "button1";
+            button1.Size = new Size(130, 29);
+            button1.TabIndex = 11;
+            button1.Text = "Submit Rquest";
+            button1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(914, 600);
+            Controls.Add(button1);
             Controls.Add(richTextBox1);
             Controls.Add(label9);
             Controls.Add(dateTimePicker1);
@@ -294,5 +305,6 @@ namespace TekDoc
         private DateTimePicker dateTimePicker1;
         private Label label9;
         private RichTextBox richTextBox1;
+        private Button button1;
     }
 }
