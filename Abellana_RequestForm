@@ -1,0 +1,298 @@
+namespace TekDoc
+{
+    partial class Form1
+    {
+        /// <summary>
+        ///  Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        ///  Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        ///  Required method for Designer support - do not modify
+        ///  the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            panel1 = new Panel();
+            panel2 = new Panel();
+            panel5 = new Panel();
+            label5 = new Label();
+            panel4 = new Panel();
+            label4 = new Label();
+            panel3 = new Panel();
+            label3 = new Label();
+            label2 = new Label();
+            label1 = new Label();
+            TekDok = new Label();
+            checkedListBox1 = new CheckedListBox();
+            label6 = new Label();
+            label7 = new Label();
+            textBox1 = new TextBox();
+            label8 = new Label();
+            dateTimePicker1 = new DateTimePicker();
+            label9 = new Label();
+            richTextBox1 = new RichTextBox();
+            panel1.SuspendLayout();
+            panel2.SuspendLayout();
+            panel5.SuspendLayout();
+            panel4.SuspendLayout();
+            panel3.SuspendLayout();
+            SuspendLayout();
+            // 
+            // panel1
+            // 
+            panel1.Controls.Add(panel2);
+            panel1.Controls.Add(label2);
+            panel1.Controls.Add(label1);
+            panel1.Controls.Add(TekDok);
+            panel1.Dock = DockStyle.Top;
+            panel1.Location = new Point(0, 0);
+            panel1.Margin = new Padding(3, 4, 3, 4);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(914, 157);
+            panel1.TabIndex = 1;
+            // 
+            // panel2
+            // 
+            panel2.BackColor = SystemColors.ActiveCaptionText;
+            panel2.Controls.Add(panel5);
+            panel2.Controls.Add(panel4);
+            panel2.Controls.Add(panel3);
+            panel2.Dock = DockStyle.Bottom;
+            panel2.Location = new Point(0, 111);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(914, 46);
+            panel2.TabIndex = 2;
+            // 
+            // panel5
+            // 
+            panel5.BackColor = Color.Maroon;
+            panel5.BorderStyle = BorderStyle.FixedSingle;
+            panel5.Controls.Add(label5);
+            panel5.Dock = DockStyle.Right;
+            panel5.Location = new Point(767, 0);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(147, 46);
+            panel5.TabIndex = 2;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Britannic Bold", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label5.ForeColor = Color.Transparent;
+            label5.Location = new Point(43, 10);
+            label5.Name = "label5";
+            label5.Size = new Size(59, 16);
+            label5.TabIndex = 1;
+            label5.Text = "Log Out";
+            // 
+            // panel4
+            // 
+            panel4.BackColor = Color.Maroon;
+            panel4.BorderStyle = BorderStyle.FixedSingle;
+            panel4.Controls.Add(label4);
+            panel4.Location = new Point(150, 0);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(147, 46);
+            panel4.TabIndex = 1;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Britannic Bold", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label4.ForeColor = Color.Transparent;
+            label4.Location = new Point(43, 10);
+            label4.Name = "label4";
+            label4.Size = new Size(55, 16);
+            label4.TabIndex = 1;
+            label4.Text = "Privacy";
+            // 
+            // panel3
+            // 
+            panel3.BackColor = Color.Maroon;
+            panel3.BorderStyle = BorderStyle.FixedSingle;
+            panel3.Controls.Add(label3);
+            panel3.Dock = DockStyle.Left;
+            panel3.Location = new Point(0, 0);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(144, 46);
+            panel3.TabIndex = 0;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Britannic Bold", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label3.ForeColor = Color.Transparent;
+            label3.Location = new Point(45, 10);
+            label3.Name = "label3";
+            label3.Size = new Size(44, 16);
+            label3.TabIndex = 0;
+            label3.Text = "Home";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Consolas", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.Location = new Point(12, 72);
+            label2.Name = "label2";
+            label2.Size = new Size(208, 18);
+            label2.TabIndex = 2;
+            label2.Text = "Document Retrieval System";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(96, 70);
+            label1.Name = "label1";
+            label1.Size = new Size(0, 20);
+            label1.TabIndex = 1;
+            // 
+            // TekDok
+            // 
+            TekDok.AutoSize = true;
+            TekDok.Font = new Font("Stencil", 25.8000011F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            TekDok.ForeColor = Color.Maroon;
+            TekDok.Location = new Point(12, 27);
+            TekDok.Name = "TekDok";
+            TekDok.Size = new Size(189, 52);
+            TekDok.TabIndex = 0;
+            TekDok.Text = "TekDoc";
+            // 
+            // checkedListBox1
+            // 
+            checkedListBox1.FormattingEnabled = true;
+            checkedListBox1.Items.AddRange(new object[] { "Certification       |   GMC    |   ENGL   |   GRAD   |   ENRL   |", "Honorable Dissmisal/Certficate of Transfer Credentials ", "Diploma", "Tanscript Of Records", "Certified true copy", "Scan", "Photocopy", "Grades   |   Study Loads", "C.A.V   |   Red Ribbon   |   Apostille  ", "Documentary Stamp/s ", "Accreditation form   |   Completion form (for INC)", "Mailing Expenses " });
+            checkedListBox1.Location = new Point(36, 192);
+            checkedListBox1.Name = "checkedListBox1";
+            checkedListBox1.Size = new Size(408, 268);
+            checkedListBox1.TabIndex = 2;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(26, 168);
+            label6.Name = "label6";
+            label6.Size = new Size(317, 20);
+            label6.TabIndex = 3;
+            label6.Text = "Request for:         (please check the box below)";
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Font = new Font("Britannic Bold", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label7.Location = new Point(767, 192);
+            label7.Name = "label7";
+            label7.Size = new Size(77, 31);
+            label7.TabIndex = 4;
+            label7.Text = "Fees:";
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(745, 433);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(125, 27);
+            textBox1.TabIndex = 5;
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Location = new Point(26, 477);
+            label8.Name = "label8";
+            label8.Size = new Size(80, 20);
+            label8.TabIndex = 6;
+            label8.Text = "Date Filed:";
+            // 
+            // dateTimePicker1
+            // 
+            dateTimePicker1.Location = new Point(112, 472);
+            dateTimePicker1.Name = "dateTimePicker1";
+            dateTimePicker1.Size = new Size(250, 27);
+            dateTimePicker1.TabIndex = 7;
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Location = new Point(26, 511);
+            label9.Name = "label9";
+            label9.Size = new Size(65, 20);
+            label9.TabIndex = 8;
+            label9.Text = "Purpose:";
+            // 
+            // richTextBox1
+            // 
+            richTextBox1.Location = new Point(112, 508);
+            richTextBox1.Name = "richTextBox1";
+            richTextBox1.Size = new Size(250, 77);
+            richTextBox1.TabIndex = 10;
+            richTextBox1.Text = "";
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(914, 600);
+            Controls.Add(richTextBox1);
+            Controls.Add(label9);
+            Controls.Add(dateTimePicker1);
+            Controls.Add(label8);
+            Controls.Add(textBox1);
+            Controls.Add(label7);
+            Controls.Add(label6);
+            Controls.Add(checkedListBox1);
+            Controls.Add(panel1);
+            Margin = new Padding(3, 4, 3, 4);
+            Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Form1";
+            WindowState = FormWindowState.Maximized;
+            Load += Form1_Load;
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            panel2.ResumeLayout(false);
+            panel5.ResumeLayout(false);
+            panel5.PerformLayout();
+            panel4.ResumeLayout(false);
+            panel4.PerformLayout();
+            panel3.ResumeLayout(false);
+            panel3.PerformLayout();
+            ResumeLayout(false);
+            PerformLayout();
+        }
+
+        #endregion
+        private Panel panel1;
+        private Label TekDok;
+        private Panel panel2;
+        private Label label2;
+        private Label label1;
+        private Panel panel4;
+        private Panel panel3;
+        private Label label3;
+        private Panel panel5;
+        private Label label5;
+        private Label label4;
+        private CheckedListBox checkedListBox1;
+        private Label label6;
+        private Label label7;
+        private TextBox textBox1;
+        private Label label8;
+        private DateTimePicker dateTimePicker1;
+        private Label label9;
+        private RichTextBox richTextBox1;
+    }
+}
